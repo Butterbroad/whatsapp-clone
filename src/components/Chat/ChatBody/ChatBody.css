@@ -1,0 +1,38 @@
+.chat__body {
+  background-image: url('https://i.redd.it/qwd83nc4xxf41.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-grow: 1;
+  padding: 30px;
+  overflow-y: auto;
+}
+.chat__message {
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: fit-content;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.chat__message {
+  margin-left: auto;
+  background-color: #dcf8c6;
+}
+.chat__name {
+  position: absolute;
+  top: -15px;
+  left: 5px;
+  font-weight: 800;
+  font-size: xx-small;
+}
+.chat__timestamp {
+  margin-left: 10px;
+  font-size: xx-small;
+  max-width: 125px;
+  white-space: nowrap;
+  overflow: hidden;
+}
